@@ -77,11 +77,7 @@ var user2 = {
 
 
 function hasProperty(object, property) {
-    if (object.includes(property) === true) {
-        return "True"
-    } else {
-        return "False"
-    }
+    return (object.includes(property)) 
   }
 
 console.log(hasProperty(prop2, "email"));
